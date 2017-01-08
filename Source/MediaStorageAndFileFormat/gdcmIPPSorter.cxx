@@ -79,7 +79,7 @@ bool IPPSorter::Sort(std::vector<std::string> const & filenames)
     if( tilt != 0.0 )
     {
       gdcmDebugMacro( "Gantry/Detector Tilt is not 0" );
-      return false;
+//      return false;
     }
   }
   Scanner::ValuesType iops = scanner.GetValues(tiop);
